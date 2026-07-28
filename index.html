@@ -1,172 +1,391 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Milena Amaral</title>
 
-    <!-- Favicon -->
+    <title>Milena Amaral | Desenvolvedora Front-End</title>
+
     <link rel="icon" href="favico.png">
-    
 
     <link rel="stylesheet" href="./styles/style.css">
 
 </head>
 
+
 <body>
 
-    <header class="cabecalho">
 
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="#">Home</a>
-            <a class="cabecalho__menu__link" href="#transicao">Transição</a>
-            <a class="cabecalho__menu__link" href="#projetos">Projetos</a>
-            <a class="cabecalho__menu__link" href="#habilidades">Habilidades</a>
-            <a class="cabecalho__menu__link" href="#contato">Contato</a>
-        </nav>
+<header class="cabecalho">
 
-    </header>
+    <nav class="cabecalho__menu">
 
+        <a href="#inicio" class="cabecalho__menu__link">Início</a>
 
-    <main>
+        <a href="#sobre" class="cabecalho__menu__link">Minha História</a>
 
-        <!-- APRESENTAÇÃO -->
-        <section class="apresentacao">
+        <a href="#projetos" class="cabecalho__menu__link">Projetos</a>
 
-            <div class="apresentacao__conteudo">
+        <a href="#habilidades" class="cabecalho__menu__link">Tecnologias</a>
 
-                <h1 class="apresentacao__conteudo__titulo">
-                    Transição de carreira para Engenharia de Software
-                </h1>
+        <a href="#contato" class="cabecalho__menu__link">Contato</a>
 
-                <p class="apresentacao__conteudo__texto">
-                    Olá! Sou Milena Amaral, estudante de desenvolvimento web em transição da área da saúde para
-                    tecnologia.
-                </p>
+    </nav>
 
-                <div class="apresentacao__links">
-
-                    <a class="botao" href="https://github.com/MilenaAmaral" target="_blank">GitHub</a>
-                    <a class="botao" href="https://www.linkedin.com/in/milenaamaraldias/" target="_blank">Linkedin</a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- TRANSIÇÃO -->
-        <section id="transicao" class="transicao">
-
-            <h2 class="titulo-secao">Minha Transição de Carreira</h2>
-
-            <div class="transicao__container">
-
-                <div class="transicao__card saude">
-                    <h3>Área da Saúde</h3>
-                    <p>
-                        Experiência como Técnica de Enfermagem desenvolvendo empatia,
-                        responsabilidade e trabalho em equipe.
-                    </p>
-                </div>
-
-                <!-- FOTO PROFISSIONAL -->
-                <div class="transicao__foto-container">
-
-                    <img src="./assets/foto-milena.png" alt="Foto Milena Amaral" class="transicao__foto">
-
-                    <div class="transicao__seta">
-                        ➡️
-                    </div>
-
-                </div>
-
-                <div class="transicao__card tecnologia">
-                    <h3>Área de Tecnologia</h3>
-                    <p>Estudando HTML, CSS, JavaScript e Python para atuar como Engenheira de Software.</p>
-                </div>
-
-            </div>
-
-        </section>
+</header>
 
 
 
-        <!-- PROJETOS -->
-        <section id="projetos" class="projetos">
+<main>
 
-            <h2 class="titulo-secao">Projetos</h2>
 
-            <div class="projetos__grid">
+<section id="inicio" class="apresentacao">
 
-                <div class="card">
-                    <h3>Portfólio HTML CSS</h3>
-                    <p>Site pessoal responsivo.</p>
-                </div>
 
-                <div class="card">
-                    <h3>Landing Page</h3>
-                    <p>Projeto com Flexbox.</p>
-                </div>
+<div class="apresentacao__conteudo">
 
-                <div class="card">
-                    <h3>Projeto em andamento</h3>
-                    <p>Novos projetos em breve.</p>
-                </div>
 
-            </div>
+<h1 
+class="apresentacao__conteudo__titulo"
+id="titulo-digitacao">
 
-        </section>
+Desenvolvedora Front-End em formação | Engenharia de Software
+
+</h1>
 
 
 
-        <!-- HABILIDADES -->
-        <section id="habilidades" class="habilidades">
+<p class="apresentacao__conteudo__texto">
 
-            <h2 class="titulo-secao">Habilidades</h2>
+Olá! Sou Milena Amaral, estudante de Engenharia de Software e
+profissional em transição de carreira da área da saúde para tecnologia.
 
-            <div class="habilidades__lista">
+Minha experiência como Técnica de Enfermagem desenvolveu
+responsabilidade, atenção aos detalhes e resolução de problemas,
+habilidades que aplico hoje no desenvolvimento de software.
 
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">Python</span>
-                <span class="tag">Git</span>
-                <span class="tag">GitHub</span>
-                <span class="tag">Lógica</span>
-
-            </div>
-
-        </section>
+</p>
 
 
 
-        <!-- CONTATO -->
-        <section id="contato" class="contato">
+<div class="apresentacao__links">
 
-            <h2 class="titulo-secao">Contato</h2>
+<a 
+class="botao"
+href="https://github.com/MilenaAmaral"
+target="_blank">
 
-            <form class="formulario">
+GitHub
 
-                <input type="text" placeholder="Seu nome" required>
-                <input type="email" placeholder="Seu email" required>
-                <textarea placeholder="Mensagem"></textarea>
-
-                <button class="botao">Enviar</button>
-
-            </form>
-
-        </section>
-
-    </main>
+</a>
 
 
-    <footer class="rodape">
-        <p>Desenvolvido por Milena Amaral</p>
-    </footer>
+<a 
+class="botao"
+href="https://www.linkedin.com/in/milenaamaraldias/"
+target="_blank">
+
+LinkedIn
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="sobre" class="transicao">
+
+
+<h2 class="titulo-secao">
+Minha Transição de Carreira
+</h2>
+
+
+
+<div class="transicao__container">
+
+
+<div class="transicao__card saude">
+
+<h3>🏥 Saúde</h3>
+
+<p>
+
+Experiência como Técnica de Enfermagem,
+atuando com cuidado ao paciente,
+trabalho em equipe e tomada de decisão.
+
+</p>
+
+</div>
+
+
+
+<div class="transicao__foto-container">
+
+<img 
+src="./assets/foto-milena.png"
+alt="Milena Amaral Desenvolvedora"
+class="transicao__foto">
+
+
+<div class="transicao__seta">
+
+➡️
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="transicao__card tecnologia">
+
+<h3>💻 Tecnologia</h3>
+
+<p>
+
+Construindo minha carreira em desenvolvimento web,
+com foco em Front-End, JavaScript e Engenharia de Software.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="projetos" class="projetos">
+
+
+<h2 class="titulo-secao">
+Projetos
+</h2>
+
+
+
+<div class="projetos__grid">
+
+
+<div class="card">
+
+<h3>
+💊 Etiqueta de Medicação
+</h3>
+
+<p>
+
+Sistema desenvolvido para organização
+e identificação de medicamentos,
+aplicando conceitos de HTML, CSS e JavaScript.
+
+</p>
+
+<a class="botao" href="#" target="_blank">
+GitHub
+</a>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+🎬 Netflix Clone
+</h3>
+
+
+<p>
+
+Interface inspirada em plataformas de streaming,
+utilizando desenvolvimento Front-End.
+
+</p>
+
+
+<a class="botao" href="#" target="_blank">
+GitHub
+</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+✈️ Jornada Viagens
+</h3>
+
+
+<p>
+
+Projeto para praticar criação de interfaces,
+responsividade e organização de código.
+
+</p>
+
+
+<a class="botao" href="#" target="_blank">
+GitHub
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="habilidades" class="habilidades">
+
+
+<h2 class="titulo-secao">
+Tecnologias e Habilidades
+</h2>
+
+
+
+<div class="habilidades__lista">
+
+
+<span class="tag">HTML5</span>
+
+<span class="tag">CSS3</span>
+
+<span class="tag">JavaScript</span>
+
+<span class="tag">Python</span>
+
+<span class="tag">SQL</span>
+
+<span class="tag">Git</span>
+
+<span class="tag">GitHub</span>
+
+<span class="tag">POO</span>
+
+<span class="tag">Lógica de Programação</span>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="contato" class="contato">
+
+
+<h2 class="titulo-secao">
+Entre em contato
+</h2>
+
+
+
+<form class="formulario">
+
+
+<input 
+type="text"
+placeholder="Seu nome"
+required>
+
+
+
+<input 
+type="email"
+placeholder="Seu email"
+required>
+
+
+
+<textarea
+placeholder="Sua mensagem">
+
+</textarea>
+
+
+
+<button class="botao">
+
+Enviar
+
+</button>
+
+
+</form>
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+
+<footer class="rodape">
+
+
+<p>
+
+Desenvolvido por Milena Amaral © 
+<span id="ano"></span>
+
+</p>
+
+
+</footer>
+
+
+
+<script src="./scripts/script.js"></script>
+
 
 </body>
 
+
 </html>
+```
